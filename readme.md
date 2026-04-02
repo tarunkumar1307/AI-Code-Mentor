@@ -102,16 +102,17 @@ npm start
 
 Create a `.env` file in the server folder:
 
-```bash
-PORT=5000
-OPENAI_API_KEY=your_api_key
+```js
+PORT=3001
+GEMINI_API_KEY=your_api_key
 ```
-
 ---
 
-## 📸 Demo  
+## 🔒 Security Note
 
-👉 Add screenshots or demo GIF here  
+- Do NOT push your `.env` file to GitHub  
+- Add `.env` to `.gitignore`  
+- Keep your API keys private  
 
 ---
 
