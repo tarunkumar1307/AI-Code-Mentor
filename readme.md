@@ -47,13 +47,12 @@ Most existing tools focus on fixing code, but they do not help beginners underst
 
 ### 🔹 Backend  
 - Node.js  
-- Express.js  
 
 ### 🔹 AI Integration  
 - OpenAI API / Gemini API  
 
 ### 🔹 Database  
-- MongoDB  
+- SQLite
 
 ---
 
