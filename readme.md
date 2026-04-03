@@ -1,79 +1,80 @@
-# 🚀 AI Code Mentor  
-### AI-Assisted Code Review & Learning Platform  
+# AI Code Mentor  
+AI Code Mentor is a full-stack web application designed to transform traditional code review into an interactive and educational experience.  
 
-🚀 Built in 2 Weeks using AI-assisted development workflow  
-
----
-
-## 🌟 Overview  
-
-**AI Code Mentor** is a full-stack web application that transforms traditional code review into an **interactive learning experience**.  
-Instead of just detecting issues, it acts as an **AI mentor** that explains *why* improvements are needed and helps developers grow.
+Unlike conventional tools that only highlight issues, this platform acts as an AI mentor by providing meaningful explanations, guiding improvements, and helping developers build strong coding practices.
 
 ---
 
-## 🌟 Features  
+## Key Features  
 
-- 🔍 **Code Smell Detection** – Identify bad practices in code  
-- 📊 **Readability Score** – Measure code quality  
-- 🤖 **AI Refactor Suggestions** – Get optimized code improvements  
-- 📚 **Learning-Oriented Explanations** – Understand *why* changes are needed  
-- 📈 **Progress Tracking** – Track weak areas over time  
-- 🧠 **Concept Mapping** – Links mistakes to programming concepts  
-- 🗂 **History & Reports** – View past reviews anytime  
+- Code Smell Detection  
+  Identify bad practices and potential issues in code  
 
----
+- Readability Scoring  
+  Evaluate code quality and maintainability  
 
-## 🧠 Problem Statement  
+- AI-Powered Refactor Suggestions  
+  Receive optimized and cleaner code recommendations  
 
-Most existing tools focus on fixing code, but they do not help beginners understand:  
-- Why the code is wrong  
-- What concept they violated  
-- How to improve in the future  
+- Conceptual Explanations  
+  Understand why improvements are necessary  
 
----
+- Progress Tracking  
+  Monitor weak areas and improvement over time  
 
-## 💡 Novelty  
+- Concept Mapping  
+  Link mistakes to fundamental programming concepts  
 
-> **“Unlike traditional code review tools, this system acts as an AI mentor that provides conceptual explanations, personalized skill tracking, and learning guidance rather than only technical feedback.”**
+- History and Reports  
+  Access previous code reviews and insights  
 
 ---
 
-## 🛠 Tech Stack  
+## Problem Statement  
 
-### 🔹 Frontend  
-- React.js  
-- Tailwind CSS  
+Existing tools primarily focus on fixing code, but they often fail to help beginners understand:
 
-### 🔹 Backend  
-- Node.js  
-
-### 🔹 AI Integration  
-- OpenAI API / Gemini API  
-
-### 🔹 Database  
-- SQLite
+- Why the code is incorrect  
+- Which programming concepts were violated  
+- How to improve in future implementations  
 
 ---
 
+## Novelty  
 
-## 🚀 How It Works  
+Unlike traditional code review tools, this system functions as an AI mentor by providing conceptual explanations, personalized feedback, and continuous learning support instead of only technical corrections.
 
-1. User pastes code or uploads a repo  
+---
+
+## Tech Stack  
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,tailwindcss,sqlite&theme=dark" alt="Tech Stack" />
+</p>
+
+- Frontend: React.js, Tailwind CSS  
+- Backend: Node.js  
+- Database: SQLite  
+- AI Model: Google Gemini API  
+---
+
+## How It Works  
+
+1. User pastes code or provides a repository  
 2. Backend processes the request  
 3. AI analyzes the code  
-4. System returns:  
-   - Code smells  
+4. System generates:  
+   - Code smell detection  
    - Readability score  
-   - Suggestions  
-   - Explanations  
-5. Results are stored for tracking progress  
+   - Refactor suggestions  
+   - Conceptual explanations  
+5. Results are stored for future tracking and analysis  
 
 ---
 
-## 🧪 Installation & Setup  
+## Installation and Setup  
 
-### 1️⃣ Clone Repository  
+### Clone the Repository  
 ```bash
 git clone https://github.com/tarunkumar1307/AI-Code-Mentor.git
 cd AI-Code-Mentor
@@ -99,29 +100,36 @@ npm start
 
 ## 🔐 Environment Variables  
 
-Create a `.env` file in the server folder:
+Create `.env` files based on the provided `.env.example` files.
 
+### Backend (`/backend`)
 ```js
 PORT=3001
 GEMINI_API_KEY=your_api_key
 ```
+
+
+### Frontend (`/frontend`)
+```js
+VITE_API_URL = http://localhost:3001/api
+```
+
 ---
 
 ## 🔒 Security Note
 
-- Do NOT push your `.env` file to GitHub  
-- Add `.env` to `.gitignore`  
-- Keep your API keys private  
+- Never commit `.env` files to version control  
+- Use `.env.example` as a reference for required variables  
+- All sensitive keys (e.g., API keys) must be stored securely in environment variables  
+- If a key is exposed, it should be immediately revoked and regenerated   
 
 ---
 
 ## 📈 Future Improvements  
-
-- 🔗 GitHub Repo Integration  
+  
 - 🧪 Test Case Suggestions  
 - 📊 Advanced Analytics Dashboard  
 - 🧑‍🏫 Personalized Learning Paths  
-- 🌐 Multi-language Support  
 
 ---
 
@@ -129,10 +137,3 @@ GEMINI_API_KEY=your_api_key
 
 **Title:**  
 *Improving Code Readability and Maintainability for Novice Programmers using AI-Assisted Web Tools*  
-
----
-
-## 🤝 Contributing  
-
-Contributions are welcome!  
-Fork the repo and submit a pull request.
